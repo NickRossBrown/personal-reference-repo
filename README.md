@@ -11,7 +11,16 @@
 * Summarize in a single paragraph.
 </details>
 
-## Goals
+### JavaScript
+<details>
+<summary>View Snippets</summary>
+ 
+* [`Promises`](#promises)
+
+</details>
+
+
+## Snippets
 <details>
 <summary>View Snippets</summary>
  
@@ -38,6 +47,21 @@
 ### Low priority
 
 ## Summary
+
+## JavaScript 
+
+### Promises
+<details>
+ 
+<summary>Promises</summary>
+
+ * An object that represents a value
+ * Pass a promise around like any other object
+ * May or may not be obtained in the future
+ * Common use case for making an ajax call
+</details>
+
+[⬆ Back to top](#table-of-contents)
 
 ## Goal Details
 ### Portfolio Project
