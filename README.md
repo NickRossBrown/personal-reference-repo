@@ -5,10 +5,10 @@
 <summary>Overall Structure</summary>
 
 * List things I can do
-* Pick top 3 or 5 items and identify why they are priorities.
-* Group your list into high, medium and low priority.
-* Rate each item on a scale of 1 to 10.
-* Summarize in a single paragraph.
+* JavaScript
+* OOP
+* CSS
+* Communication
 </details>
 
 ### JavaScript
@@ -18,6 +18,22 @@
 * [`Promises`](#promises)
 
 </details>
+
+### Learning
+<details>
+<summary>Most effective to help someone learn </summary>
+
+* Show them something first
+* So they can see how something works
+* Give them a chance to modify an existing example
+* Give them a chance to create something from scratch
+</details>
+<details>
+<summary> </summary>
+
+* 
+</details>
+### Communication
 
 
 ## Snippets
