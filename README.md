@@ -21,12 +21,11 @@
 
 ### Learning
 <details>
-<summary>Most effective to help someone learn </summary>
+<summary>Helpful links </summary>
 
-* Show them something first
-* So they can see how something works
-* Give them a chance to modify an existing example
-* Give them a chance to create something from scratch
+* One of my favorite js sites for looking into vue react js documentation + examples
+https://alligator.io/
+* 
 </details>
 <details>
 <summary> </summary>
@@ -52,16 +51,6 @@
  
 * [`Quick Promises overview`](#Promises)
 </details>
-
-## Priority Goals
-
-
-### High priority
-
-### Medium priority
-### Low priority
-
-## Summary
 
 ## JavaScript 
 
