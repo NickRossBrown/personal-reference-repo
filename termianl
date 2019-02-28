@@ -1,0 +1,7 @@
+#Termianl Commands
+
+softwareupdate --list see the list of outdated software.
+
+softwareupdate --install --all update all outdated software.
+
+softwareupdate --install <product name> update the software you named.
