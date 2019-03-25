@@ -90,3 +90,68 @@ RUN
 CMD
 * What should be executed when our image is used to start up a brand new container
 * ex) execute chrome.exe
+COPY 
+* general layout COPY ./ ./
+* first ./ => Path to folder to copy from on *you machine* relative to build context
+* second ./ => Place to copy stuff to inside *the Container*
+
+#### alpine
+* an alpine version a very stripped down version of that image
+* ex) node:apline
+
+#### Tagging an image
+```
+$ docker build -t yourDockerId/RepoORProject-Name:version .
+```
+* -t yourDockerId/RepoORProject-Name:version => tags the image
+* the ' . ' specifies the directory of the files/folders to use for the build
+
+#### docker compose
+* one of the big purposes of Darker compose is to just avoid having to write out all these really annoying tiny little options every time you want to start up a container 
+* The other big thing that docker compose is going to do for us is it's going to make it very easy and very straightforward to start up multiple docker containers at the same time and automatically connect them together with some form of networking and it's all going to happen behind the scenes for us quite automatically.
+* add a docker-compose.yml file to set up all the 'services' (referring to different containers) that goes to the docker cli
+```
+$ docker-compose up
+```
+* creates an instance of all the container, or images, or services listed inside our compose file (docker-compose.yml)
+
+```
+$ docker-compose up --build
+```
+* start up the containers again but rebuild them ahead of time
+```
+$ docker-compose up -d
+```
+* start up containers in the background
+```
+$ docker-compose down
+```
+* stop all of our running containers (easy to remember => opposite of going up is down)
+```
+$ docker-compose ps
+```
+* run in project directory, docker will find all listed containers and return their status
+
+
+###build 
+```
+$ docker build -f Dockerfile.dev .
+```
+* name the dockerfile .dev in development so its purpose for being used in development is clear
+* the new dockerfile needs -f for docker to find the file
+
+### using docker volumns
+```
+$ docker run -p 3000:3000 -v /app/node_modules -v$(pwd):/app <image id>
+```
+-v /app/node_modules
+* means put a bookmark on the node_modules folder
+
+-v$(pwd):/app
+* Map the pwd into the '/app' folder
+* pwd => present working directory
+
+### run test 
+```
+$ docker run -it 4c8116267596 npm run test
+```

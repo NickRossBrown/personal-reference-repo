@@ -1,0 +1,16 @@
+example of a docker compose yml file
+
+
+# version of docker compose that we trying to use with this formatted file
+version: '3'
+# anytime you see the word service it essentially saying a container, more like a type of container
+services: 
+  redis-server:
+    # create redis service using the redis image
+    image: 'redis'
+  node-app:
+    # build: . means look in the current directory for a docker file and use that to build an image that is going to be used for this container
+    build: .
+    # a dash in a yml file is how we specify an array 
+    ports:
+      -  "8081:8081"
