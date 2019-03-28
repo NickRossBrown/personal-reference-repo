@@ -1,19 +1,22 @@
 # Personal Reference Repo
 
-## Content
 <details>
-<summary>Overall Structure</summary>
+
+<summary> Content </summary>
 
 * Javascript
 * Docker
 * CSS
+* Terminal Commands
 </details>
 
 ## Folder Navigation
 
-### [Javascript](Javascript)
+### [Javascript](Javascript/index.md)
 
-### [Docker](Docker)
+### [Docker](Docker/index.md)
 
-### [CSS](CSS)
+### [CSS](CSS/index.md)
+
+### [Terminal Commands](Terminal/index.md)
 

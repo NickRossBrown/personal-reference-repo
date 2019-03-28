@@ -1,12 +1,10 @@
 # CSS 
 
-## Content
 <details>
-<summary>Overall Structure</summary>
+<summary>Content</summary>
 
 * Animated words with letter waterfall dropdown
-* Docker
-* CSS
+
 </details>
 
 ## CSS Folder Navigation
