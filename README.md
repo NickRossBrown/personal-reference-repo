@@ -1,6 +1,6 @@
 # Personal Reference Repo
 
-## Contents
+## Content
 <details>
 <summary>Overall Structure</summary>
 
@@ -9,4 +9,11 @@
 * CSS
 </details>
 
+## Folder Navigation
+
+### [Javascript](Javascript)
+
+### [Docker](Docker)
+
+### [CSS](CSS)
 
