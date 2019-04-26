@@ -22,6 +22,7 @@
 * Most common, cheapest to implement, easiest to implement, most important to have in application 
 * 90% of of your time writing tests will be writing unit tests
 * Test functions and classes 
+* The one thing to keep in mind is that unit tests don't test the contract(connection between things)
 
 ## Integration Test
 

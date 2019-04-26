@@ -5,14 +5,17 @@
 <summary>Page Navigation</summary>
  
 * [`Testing Library`](#Testing-Library)
-* [`Top three JS testing libraries`](#Top three JS testing libraries)
-* [``](#)
+* [`Top three JS testing libraries`](#Top-three-JS-testing-libraries)
 * [`Assertion Library`](#Assertion-Library)
 * [`Assertion Functions`](#Assertion-Functions)
 * [`three JS Assertion libraries`](#three-JS-Assertion-libraries)
 * [`Test Runner`](#Test-Runner)
 * [`Puppeteer`](#puppeteer)
 * [`jsdom`](#jsdom)
+* [`Mock spies and Stubbs`](#Mock-spies-and-Stubbs)
+* [`Code Coverage`](#Code-Coverage)
+* [`Simple => how to choose what library combinations`](#how-to-choose-what-library-combinations)
+* [``](#)
 * [``](#)
 
 
@@ -71,3 +74,25 @@
 * javascript implementation of the DOM.
 * So it's not the real Dom but a fake javascript version of it
     - remember the DOM is that tree like structure that shows the nodes on our webpage and that's what makes
+
+## Mock spies and Stubbs
+
+* Jasmine and Jest come with their own version
+* If you're using something like Mocha (most popular example) just like you had to add an assertion on library you'll have to add something called Sinon.js
+* Spies provide for us information about functions
+    - How many times they were called in what cases and by who
+* Stubbing replaces selected functions with a function to ensure that the expected behavior happens 
+* Mock is kind of like faking a function or a behavior to test different parts of a process
+    - this might be really really good for integration tests
+
+## Code Coverage
+
+* Istanbul
+* Jest has it own code coverage
+* Gives a report of where and how many lines ood code are missing tests
+
+## how to choose what library combinations
+
+* if you want a fast framework that can handle everything and has everything in one wall just use Jest
+* if you want a very flexible extendable configuration where you can plug in some things then use Mocha
+    - A harder to set up because we need to add on things like Chai and Sinon.js but it's more flexible.
